@@ -1,3 +1,5 @@
+/* reset */
+
 *{
     margin: 0; 
     padding: 0;
@@ -14,14 +16,17 @@
     width: calc(100% / 3);
     display: inline-block;
     position: relative;
-    border: 1px solid black;
+    padding: 3px;
 }
 
+/* first photos */
 
 .show{
        width: 100%;
     }
 
+
+/* discount box */
 .discount{
     font-size: small;
     position: absolute;
@@ -30,6 +35,7 @@
     left: 0;
     bottom: 12%;
 }
+
 
 .heart{
     font-size: 20px;
@@ -42,6 +48,8 @@
     text-align: center;
     line-height: 25px;
 }
+
+/*  sustainability box */
 
 .sostenibilita{
     position: absolute;
@@ -60,6 +68,8 @@
     left: 0%;
     font-size: small;
 }
+
+/* hidden photos */
 
 .hidden{
     display: none;
