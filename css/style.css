@@ -28,7 +28,7 @@
     color: white;
     background-color: red;
     left: 0;
-    bottom: 5%;
+    bottom: 12%;
 }
 
 .heart{
@@ -47,8 +47,8 @@
     position: absolute;
     color: white;
     background-color: rgb(0, 135, 90);
-    bottom: 5%;
-    left: 15%;
+    bottom: 12%;
+    left: 12%;
     font-size: small;
 }
 
@@ -56,15 +56,15 @@
     position: absolute;
     color: white;
     background-color: rgb(0, 135, 90);
-    bottom: 5%;
+    bottom: 12%;
     left: 0%;
     font-size: small;
 }
 
 .hidden{
     display: none;
-    position: absolute;
     width: 100%;
+    top: 0%;
 }
 
 .product:hover .hidden{
@@ -75,3 +75,15 @@
     display: none;
 }
 
+.mark{
+    font-size: thin;
+}
+
+.red_price{
+    font-size: 15px;
+    color: red;
+}
+
+.black_pirce{
+    font-size: 15px;
+}
